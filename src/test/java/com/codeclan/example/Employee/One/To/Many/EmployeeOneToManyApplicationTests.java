@@ -34,7 +34,7 @@ class EmployeeOneToManyApplicationTests {
 		departmentRepository.save(department);
 
 		Employee employee = new Employee("Judith", "Sparrow", 13, department);
-		departmentRepository.save(department);
+		employeeRepository.save(employee);
 
 	}
 
